@@ -1,6 +1,6 @@
 var msg = prompt('Por favor ingresa el numero de la tarjeta de crédito que quieres validar.');
 
-function isValidCard()
+function isValidCard(){
 if(msg.length === 0){
     alert('Por favor ingresa el numero de la tarjeta de crédito que quieres validar.');
     return;
